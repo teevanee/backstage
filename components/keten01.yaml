@@ -14,5 +14,5 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: APIM
+  owner: apim-corp
   partOf: ESB
