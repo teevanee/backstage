@@ -15,4 +15,4 @@ spec:
   type: service
   lifecycle: experimental
   owner:  pr-team-a
-  partOf: keten01
+  subcomponentOf: keten01
