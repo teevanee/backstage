@@ -7,5 +7,4 @@ spec:
   targets:
     - ./all-components.yaml
     - ./all-domains.yaml
-    - ./pr-corp.yaml
     
