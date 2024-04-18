@@ -14,9 +14,5 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: team-c
+  owner:  pr-team-a
   partOf: keten01
-  providesApis:
-    - petstore
-    - streetlights
-    - hello-world
