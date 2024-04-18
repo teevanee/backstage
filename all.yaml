@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: pr-all
+  description: A collection of all entities
+spec:
+  targets:
+    - ./all-apis.yaml
+    - ./all-components.yaml
+    - ./all-domains.yaml
+    - ./all-resources.yaml
+    - ./all-systems.yaml
