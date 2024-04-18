@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: KA
-  description: Ka Domain
+  description: KA Domain
   title: Kantoor Automatisering
   links:
     - url: http://example.com/domain/artists/
@@ -11,4 +11,4 @@ metadata:
       title: Domain Metrics Dashboard
       icon: dashboard
 spec:
-  owner: apim-team
+  owner: pr-team-a
