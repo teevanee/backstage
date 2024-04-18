@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./pr/org.yaml
+    - ./pr/team-a-group.yaml
