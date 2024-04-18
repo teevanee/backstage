@@ -5,4 +5,4 @@ metadata:
   description: A collection of all demo example APIs
 spec:
   targets:
-    - ./apis/hello-world-api.yaml
+    - ./apis/hello-world-api2.yaml
