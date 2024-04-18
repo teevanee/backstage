@@ -7,3 +7,4 @@ spec:
   targets:
     - ./pr/org.yaml
     - ./pr/team-a-group.yaml
+    - ./domains/ka.yaml
