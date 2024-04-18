@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./components/component01.yaml
+    - ./components/keten01.yaml
