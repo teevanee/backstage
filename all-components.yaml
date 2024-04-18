@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: example-components
-  description: A collection of all Backstage example components
+  name: pr-components
+  description: A collection of all pr example components
 spec:
   targets:
-    - ./components/component1.yaml
+    - ./components/component01.yaml
