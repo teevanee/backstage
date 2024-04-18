@@ -15,6 +15,7 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-c
+  partOf: keten01
   providesApis:
     - petstore
     - streetlights
