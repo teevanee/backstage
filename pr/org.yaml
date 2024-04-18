@@ -14,4 +14,4 @@ spec:
     displayName: PR Corp
     email: info@example.com
     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
-  children: [team-a-group]
+  children: [pr-team-a]
