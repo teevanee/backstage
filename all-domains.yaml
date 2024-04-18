@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: example-domains
-  description: A collection of all Backstage example domains
+  name: pr-domains
+  description: A collection of all pr domains
 spec:
   targets:
     - ./domains/ka.yaml
