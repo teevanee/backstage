@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
   name: KA
-  description: Ka Doamin
+  description: Ka Domain
   title: Kantoor Automatisering
   links:
     - url: http://example.com/domain/artists/
