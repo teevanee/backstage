@@ -1,0 +1,95 @@
+openapi: 3.0.0
+info:
+  title: GeocodeService
+  description: Service voor het bepalen van een X, Y coördinaat
+  contact:
+    email: simon@blabla.nl
+  version: 2.0.0
+servers:
+  - url: https://localhost/geocoderen/api_v2.ashx/GetXY_GeocodePunten_v2
+tags:
+  - name: geocodePunten
+paths:
+  /v2/geocodePunten:
+    post:
+      tags:
+        - geocodePunten
+      summary: Opvragen coördinaten bij de Storingenkaart
+      description: Het opvragen van de X- en Y-coördinaat bij de Storingenkaart op basis van geocode.
+      operationId: findGeocodePunten
+      requestBody:
+        description: Lijst van Feature objecten voor het bepalen van de X- en Y-coördinaten op de Storingenkaart
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                $ref: "#/components/schemas/Feature"
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Feature"
+        '400':
+          description: Ongeldige invoer
+        '404':
+          description: Geocode niet gevonden
+
+components:
+  schemas:
+    Feature:
+      type: object
+      properties:
+        geocode:
+          type: string
+          description: De geocode van de locatie
+          example: '112'
+        geometry:
+          type: object
+          description: Bestaat uit RD- en WGS-coördinaten waarbij geometry van het type punt is.
+          items:
+            $ref: "#/components/schemas/Geometry"
+        properties:
+          type: object
+          description: Lijst met hectometer nummers
+          items:
+            $ref: "#/components/schemas/Properties"
+    Geometry:
+      type: object
+      properties:
+        type:
+          type: string
+          description: het geometry type
+          example: Point
+        coordinatesRD:
+          type: array
+          description: Rijksdriehoekscoördinaten; het Stelsel van de Rijksdriehoeksmeting (RD) is het nationale coördinatensysteem. Het stelsel bestaat uit een netwerk van ongeveer 5.600 RD-punten verspreid over Nederland. Het Rijksdriehoeksstelsel is onderdeel van de Nederlandse geodetische infrastructuur.
+          example: [86494.936, 439781.070]
+          items:
+            $ref: "#/components/schemas/Punt"
+        coordinatesWGS:
+          type: array
+          description: Geografische coördinaten (WGS84, World Geodetic System 1984); geografische coördinaten beschrijven een punt aan de hand van de hoekafstand tot de evenaar.
+          example: [51.94225879454535, 4.390894758891953]
+          items:
+            $ref: "#/components/schemas/Punt"
+    Properties:
+      type: object
+      properties:
+        punten:
+          type: array
+          description: Lijst van objecten met hectometernummers
+          example: [115.183]
+          items:
+            $ref: "#/components/schemas/Punt"
+    Punt:
+      type: number
+      format: float
+      description: De X- of Y-coördinaat of het hectometernummer van de locatie
+        
+    
+    
