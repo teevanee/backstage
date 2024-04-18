@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: pr-corp
+  description: A collection of all PR Groups
+spec:
+  targets:
+    - ./pr/org.yaml
