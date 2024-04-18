@@ -10,3 +10,5 @@ spec:
     - ./all-domains.yaml
     - ./all-resources.yaml
     - ./all-systems.yaml
+    - ./pr-corp.yaml
+    
