@@ -16,3 +16,4 @@ spec:
   lifecycle: experimental
   owner: apim-corp
   partOf: ESB
+  hasPart: component01
