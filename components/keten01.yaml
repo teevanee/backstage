@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Keten01
+  # This is an extra long description with Markdown
+  description: |
+    Keten01 bevat de volgende componenten
+    - First item
+    - Second item
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+spec:
+  type: service
+  lifecycle: experimental
+  owner: APIM
+  partOf: ESB
