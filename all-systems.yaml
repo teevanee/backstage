@@ -6,4 +6,4 @@ metadata:
 spec:
   targets:
     - ./systems/emsserverA.yaml
-    - ./systems/keten01.yaml
+    - ./systems/esb.yaml
