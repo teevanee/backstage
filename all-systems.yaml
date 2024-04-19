@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: pr-systems
+  description: A collection of all pr esystems
+spec:
+  targets:
+    - ./systems/component01.yaml
