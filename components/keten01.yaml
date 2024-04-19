@@ -15,4 +15,4 @@ spec:
   type: service
   lifecycle: experimental
   owner: apim-corp
-  partOf: ESB
+  partOf: esb
