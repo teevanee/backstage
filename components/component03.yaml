@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: component03
+  # This is an extra long description with Markdown
+  description: |
+    example API used to show features of the OpenAPI spec.
+    - First item
+    - Second item
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+spec:
+  type: service
+  consumesApis: ['apis:ems01']
+  lifecycle: experimental
+  owner:  pr-team-a
+  subcomponentOf: keten01
