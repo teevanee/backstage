@@ -6,4 +6,4 @@ metadata:
 spec:
   owner: pr-team-a
   domain: ka
-  type: messaging
+  type: database
