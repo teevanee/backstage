@@ -9,6 +9,6 @@ spec:
   type: ems
   lifecycle: experimental
   owner: breanna.davison
-  dependsOn: emsserverA
+  system: emsserverA
   definition:
     $text: ./hw2.oas.yaml
