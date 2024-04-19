@@ -14,5 +14,6 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
+  providesApis: ['ems01']
   owner:  pr-team-a
   subcomponentOf: keten01
