@@ -13,7 +13,7 @@ metadata:
       icon: github
 spec:
   type: service
-  consumesApis: ['apis:ems01']
+  consumesApis: ['ems01']
   lifecycle: experimental
   owner:  pr-team-a
-  dependsOn: keten01
+  dependsOn: ['keten01']
