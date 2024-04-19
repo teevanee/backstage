@@ -7,4 +7,5 @@ spec:
   targets:
     - ./components/component01.yaml
     - ./components/component02.yaml
-    - ./components/keten01.yaml
+    - ./components/component03.yaml
+   
