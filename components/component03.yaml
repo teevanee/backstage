@@ -18,3 +18,4 @@ spec:
   lifecycle: experimental
   owner:  pr-team-a
   subcomponentOf: keten01
+  system: esb
