@@ -17,4 +17,4 @@ spec:
   providesApis: ['ems02']
   lifecycle: experimental
   owner:  pr-team-a
-  dependsOn: keten01
+  dependsOn: ['keten01']
