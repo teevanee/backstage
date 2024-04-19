@@ -13,6 +13,7 @@ metadata:
       icon: github
 spec:
   type: service
+  consumesApis: ems01
   lifecycle: experimental
   owner:  pr-team-a
   subcomponentOf: keten01
