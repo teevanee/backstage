@@ -8,7 +8,7 @@ metadata:
 spec:
   type: ems
   lifecycle: experimental
-  owner: breanna.davison
-  system: emsserverA
+  owner: team
+  dependsOn: emsserverA
   definition:
     $text: ./hw2.oas.yaml
