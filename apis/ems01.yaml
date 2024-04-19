@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: hello-world2
+  description: The HW2 API
+  tags:
+    - store
+    - rest
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+    - url: https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml
+      title: API Spec
+      icon: code
+spec:
+  type: ems
+  lifecycle: experimental
+  owner: Theo
+  definition:
+    $text: ./hw2.oas.yaml
