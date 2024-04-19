@@ -1,8 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: System
-metadata:
-  name: emsserverA
-  description: EMS server
-spec:
-  owner: pr-team-a
-  domain: ka
