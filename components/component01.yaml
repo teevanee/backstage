@@ -16,4 +16,4 @@ spec:
   consumesApis: ['apis:ems01']
   lifecycle: experimental
   owner:  pr-team-a
-  partOf: keten01
+  dependsOn: keten01
