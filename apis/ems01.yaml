@@ -8,6 +8,6 @@ metadata:
 spec:
   type: ems
   lifecycle: experimental
-  owner: Theo
+  owner: breanna.davison
   definition:
     $text: ./hw2.oas.yaml
