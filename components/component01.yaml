@@ -7,8 +7,8 @@ metadata:
     example API used to show features of the OpenAPI spec.
     - First item
     - Second item
-##  annotations:
-##    backstage.io/techdocs-ref: dir:.
+  annotations:
+    backstage.io/techdocs-ref: dir:.
   links:
     - url: https://github.com/swagger-api/swagger-petstore
       title: GitHub Repo
