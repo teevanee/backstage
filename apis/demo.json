@@ -1,0 +1,1505 @@
+{
+  "$id": "hello_world.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "This JSON Schema file was generated from hello_world.xsd on Mon Apr 22 2024 10:20:57 GMT+0200 (Midden-Europese zomertijd).  For more information please see http://www.xsd2jsonschema.org",
+  "description": "Schema tag attributes: xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:tns='http://www.prorail.nl/Buitendienststelling/schema/BuitendienststellingWO_2' targetNamespace='http://www.prorail.nl/Buitendienststelling/schema/BuitendienststellingWO_2' elementFormDefault='qualified' attributeFormDefault='unqualified' version='2.1'",
+  "properties": {
+    "WekelijkseOnttrekking": {
+      "$ref": "#/definitions/WekelijkseOnttrekking_Type"
+    },
+    "WekelijkseOnttrekking_Type": {
+      "$ref": "#/definitions/WekelijkseOnttrekking_Type"
+    },
+    "WekelijkseOnttrekkingDetails_Type": {
+      "$ref": "#/definitions/WekelijkseOnttrekkingDetails_Type"
+    },
+    "WOType_Type": {
+      "$ref": "#/definitions/WOType_Type"
+    },
+    "WoWeek_Type": {
+      "$ref": "#/definitions/WoWeek_Type"
+    },
+    "WoWeekNietTeBenutten_Type": {
+      "$ref": "#/definitions/WoWeekNietTeBenutten_Type"
+    },
+    "WOWerkplek_Type": {
+      "$ref": "#/definitions/WOWerkplek_Type"
+    },
+    "Concurrentie_Type": {
+      "$ref": "#/definitions/Concurrentie_Type"
+    },
+    "AfwijkendSpoorPerronGebruik_Type": {
+      "$ref": "#/definitions/AfwijkendSpoorPerronGebruik_Type"
+    },
+    "BetrokkenPartijen_Type": {
+      "$ref": "#/definitions/BetrokkenPartijen_Type"
+    },
+    "Buitendienststelling_Type": {
+      "$ref": "#/definitions/Buitendienststelling_Type"
+    },
+    "Capaciteitsbehoeftebeheer_Type": {
+      "$ref": "#/definitions/Capaciteitsbehoeftebeheer_Type"
+    },
+    "Deelcorridor_Type": {
+      "$ref": "#/definitions/Deelcorridor_Type"
+    },
+    "ExterneIdentificatie_Type": {
+      "$ref": "#/definitions/ExterneIdentificatie_Type"
+    },
+    "Indicatie_Type": {
+      "$ref": "#/definitions/Indicatie_Type"
+    },
+    "InfraAtlasversie_Type": {
+      "$ref": "#/definitions/InfraAtlasversie_Type"
+    },
+    "InfraObjectIdentificatie_Type": {
+      "$ref": "#/definitions/InfraObjectIdentificatie_Type"
+    },
+    "KilometerOpKilometerlint_Type": {
+      "$ref": "#/definitions/KilometerOpKilometerlint_Type"
+    },
+    "MaterieelOpstellingMogelijk_Type": {
+      "$ref": "#/definitions/MaterieelOpstellingMogelijk_Type"
+    },
+    "OBEBlad_Type": {
+      "$ref": "#/definitions/OBEBlad_Type"
+    },
+    "OmrijdOmreis_Type": {
+      "$ref": "#/definitions/OmrijdOmreis_Type"
+    },
+    "OmrijdenOmreizen_Type": {
+      "$ref": "#/definitions/OmrijdenOmreizen_Type"
+    },
+    "Opstelcapaciteit_Type": {
+      "$ref": "#/definitions/Opstelcapaciteit_Type"
+    },
+    "Overleg_Type": {
+      "$ref": "#/definitions/Overleg_Type"
+    },
+    "OverlegOrganisatie_Type": {
+      "$ref": "#/definitions/OverlegOrganisatie_Type"
+    },
+    "Periode_Type": {
+      "$ref": "#/definitions/Periode_Type"
+    },
+    "Spanningsloos_Type": {
+      "$ref": "#/definitions/Spanningsloos_Type"
+    },
+    "Spoortak_Type": {
+      "$ref": "#/definitions/Spoortak_Type"
+    },
+    "SpoortakFragment_Type": {
+      "$ref": "#/definitions/SpoortakFragment_Type"
+    },
+    "SpoortakGrens_Type": {
+      "$ref": "#/definitions/SpoortakGrens_Type"
+    },
+    "Tijdligging_Type": {
+      "$ref": "#/definitions/Tijdligging_Type"
+    },
+    "Reden_Type": {
+      "$ref": "#/definitions/Reden_Type"
+    },
+    "Verkeersgevolgen_Type": {
+      "$ref": "#/definitions/Verkeersgevolgen_Type"
+    },
+    "VertragingTreinverkeer_Type": {
+      "$ref": "#/definitions/VertragingTreinverkeer_Type"
+    },
+    "Vervoerder_Type": {
+      "$ref": "#/definitions/Vervoerder_Type"
+    },
+    "Dienstregelpunt_Type": {
+      "$ref": "#/definitions/Dienstregelpunt_Type"
+    },
+    "Mutatie_Type": {
+      "$ref": "#/definitions/Mutatie_Type"
+    }
+  },
+  "type": "object",
+  "anyOf": [
+    {
+      "required": [
+        "WekelijkseOnttrekking"
+      ]
+    },
+    {
+      "required": [
+        "WekelijkseOnttrekking_Type"
+      ]
+    },
+    {
+      "required": [
+        "WekelijkseOnttrekkingDetails_Type"
+      ]
+    },
+    {
+      "required": [
+        "WOType_Type"
+      ]
+    },
+    {
+      "required": [
+        "WoWeek_Type"
+      ]
+    },
+    {
+      "required": [
+        "WoWeekNietTeBenutten_Type"
+      ]
+    },
+    {
+      "required": [
+        "WOWerkplek_Type"
+      ]
+    },
+    {
+      "required": [
+        "Concurrentie_Type"
+      ]
+    },
+    {
+      "required": [
+        "AfwijkendSpoorPerronGebruik_Type"
+      ]
+    },
+    {
+      "required": [
+        "BetrokkenPartijen_Type"
+      ]
+    },
+    {
+      "required": [
+        "Buitendienststelling_Type"
+      ]
+    },
+    {
+      "required": [
+        "Capaciteitsbehoeftebeheer_Type"
+      ]
+    },
+    {
+      "required": [
+        "Deelcorridor_Type"
+      ]
+    },
+    {
+      "required": [
+        "ExterneIdentificatie_Type"
+      ]
+    },
+    {
+      "required": [
+        "Indicatie_Type"
+      ]
+    },
+    {
+      "required": [
+        "InfraAtlasversie_Type"
+      ]
+    },
+    {
+      "required": [
+        "InfraObjectIdentificatie_Type"
+      ]
+    },
+    {
+      "required": [
+        "KilometerOpKilometerlint_Type"
+      ]
+    },
+    {
+      "required": [
+        "MaterieelOpstellingMogelijk_Type"
+      ]
+    },
+    {
+      "required": [
+        "OBEBlad_Type"
+      ]
+    },
+    {
+      "required": [
+        "OmrijdOmreis_Type"
+      ]
+    },
+    {
+      "required": [
+        "OmrijdenOmreizen_Type"
+      ]
+    },
+    {
+      "required": [
+        "Opstelcapaciteit_Type"
+      ]
+    },
+    {
+      "required": [
+        "Overleg_Type"
+      ]
+    },
+    {
+      "required": [
+        "OverlegOrganisatie_Type"
+      ]
+    },
+    {
+      "required": [
+        "Periode_Type"
+      ]
+    },
+    {
+      "required": [
+        "Spanningsloos_Type"
+      ]
+    },
+    {
+      "required": [
+        "Spoortak_Type"
+      ]
+    },
+    {
+      "required": [
+        "SpoortakFragment_Type"
+      ]
+    },
+    {
+      "required": [
+        "SpoortakGrens_Type"
+      ]
+    },
+    {
+      "required": [
+        "Tijdligging_Type"
+      ]
+    },
+    {
+      "required": [
+        "Reden_Type"
+      ]
+    },
+    {
+      "required": [
+        "Verkeersgevolgen_Type"
+      ]
+    },
+    {
+      "required": [
+        "VertragingTreinverkeer_Type"
+      ]
+    },
+    {
+      "required": [
+        "Vervoerder_Type"
+      ]
+    },
+    {
+      "required": [
+        "Dienstregelpunt_Type"
+      ]
+    },
+    {
+      "required": [
+        "Mutatie_Type"
+      ]
+    }
+  ],
+  "definitions": {
+    "WekelijkseOnttrekking": {
+      "$ref": "#/definitions/WekelijkseOnttrekking_Type"
+    },
+    "WekelijkseOnttrekking_Type": {
+      "required": [
+        "Mutatie",
+        "Capaciteitsbehoeftebeheer"
+      ],
+      "properties": {
+        "Mutatie": {
+          "$ref": "#/definitions/Mutatie_Type"
+        },
+        "Status": {
+          "type": "string"
+        },
+        "Substatus": {
+          "type": "string"
+        },
+        "Capaciteitsbehoeftebeheer": {
+          "$ref": "#/definitions/Capaciteitsbehoeftebeheer_Type"
+        },
+        "OnttrekkingDetails": {
+          "$ref": "#/definitions/WekelijkseOnttrekkingDetails_Type"
+        }
+      },
+      "type": "object"
+    },
+    "WekelijkseOnttrekkingDetails_Type": {
+      "required": [
+        "InfraAtlasVersie",
+        "OBEBladen",
+        "Weekpatroon",
+        "Weken",
+        "WOWerkplekken",
+        "Dienstregelpunten",
+        "WOType"
+      ],
+      "properties": {
+        "Aanvrager": {
+          "type": "string"
+        },
+        "InfraAtlasVersie": {
+          "$ref": "#/definitions/InfraAtlasversie_Type"
+        },
+        "OBEBladen": {
+          "required": [
+            "OBEBlad"
+          ],
+          "properties": {
+            "OBEBlad": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/OBEBlad_Type"
+                },
+                {
+                  "items": {
+                    "$ref": "#/definitions/OBEBlad_Type"
+                  },
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        },
+        "Weekpatroon": {
+          "type": "string"
+        },
+        "Weken": {
+          "required": [
+            "Week"
+          ],
+          "properties": {
+            "Week": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/WoWeek_Type"
+                },
+                {
+                  "items": {
+                    "$ref": "#/definitions/WoWeek_Type"
+                  },
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        },
+        "WOWerkplekken": {
+          "required": [
+            "WOWerkplek"
+          ],
+          "properties": {
+            "WOWerkplek": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/WOWerkplek_Type"
+                },
+                {
+                  "items": {
+                    "$ref": "#/definitions/WOWerkplek_Type"
+                  },
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        },
+        "Dienstregelingsjaar": {
+          "maximum": 2147483647,
+          "minimum": -2147483648,
+          "type": "integer"
+        },
+        "Uitvoeringsperiode": {
+          "$ref": "#/definitions/Periode_Type"
+        },
+        "Aanpassen": {
+          "$ref": "#/definitions/Indicatie_Type"
+        },
+        "Overleg": {
+          "$ref": "#/definitions/Overleg_Type"
+        },
+        "BetrokkenPartijen": {
+          "$ref": "#/definitions/BetrokkenPartijen_Type",
+          "description": "BTD: Gevuld met informatie uit scherm Afstemresultaat Behandelen groep Resultaat"
+        },
+        "Concurrentie": {
+          "$ref": "#/definitions/Concurrentie_Type"
+        },
+        "Dienstregelpunten": {
+          "description": "Veld Locaties uit groep Algemeen bij WO",
+          "required": [
+            "Dienstregelpunt"
+          ],
+          "properties": {
+            "Dienstregelpunt": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/Dienstregelpunt_Type"
+                },
+                {
+                  "items": {
+                    "$ref": "#/definitions/Dienstregelpunt_Type"
+                  },
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        },
+        "Bijzonderheden": {
+          "type": "string"
+        },
+        "VerwerktInDonnaIndicator": {
+          "oneOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "integer"
+            }
+          ]
+        },
+        "Verkeersgevolgen": {
+          "$ref": "#/definitions/Verkeersgevolgen_Type"
+        },
+        "TeBenuttenTot": {
+          "type": "string"
+        },
+        "WOType": {
+          "$ref": "#/definitions/WOType_Type"
+        }
+      },
+      "type": "object"
+    },
+    "WOType_Type": {
+      "required": [
+        "Types"
+      ],
+      "properties": {
+        "Types": {
+          "description": "Waarden: WO Standaard, WO met Lage Frequentie, WO met Aanvullende Afspraken, WO Niet Gelijktijdig (met andere WO), WO Tijdelijk",
+          "required": [
+            "Type"
+          ],
+          "properties": {
+            "Type": {
+              "oneOf": [
+                {},
+                {
+                  "items": {},
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        },
+        "MaximaalAantalPerJaar": {
+          "description": "Aanduiding hoe vaak de WO maximaal (aantal weken) per jaar plaats vindt",
+          "maximum": 2147483647,
+          "minimum": -2147483648,
+          "type": "integer"
+        },
+        "Toelichting": {
+          "description": "Aanduiding welke afspraken er zijn gemaakt voor deze WO (bijv. bij WOAA = WO Aanvullende Afspraken)",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "WoWeek_Type": {
+      "required": [
+        "Begindatum",
+        "Weeknummer"
+      ],
+      "properties": {
+        "Begindatum": {
+          "description": "WeekStartDatum",
+          "pattern": "-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?",
+          "type": "string"
+        },
+        "Weeknummer": {
+          "maximum": 2147483647,
+          "minimum": -2147483648,
+          "type": "integer"
+        },
+        "DonnaStatus": {
+          "description": "Alleen gevuld als er een Verwerken in Donna taak voor is (geweest). Waarden: Te verwijderen, Verwijderd, In te voeren",
+          "type": "string"
+        },
+        "WeekNietTeBenutten": {
+          "$ref": "#/definitions/WoWeekNietTeBenutten_Type",
+          "description": "Alleen gevuld als de week handmatig in de Btd-planner is aangemerkt als niet (meer) te benutten."
+        }
+      },
+      "type": "object"
+    },
+    "WoWeekNietTeBenutten_Type": {
+      "required": [
+        "Reden",
+        "Toelichting"
+      ],
+      "properties": {
+        "Reden": {
+          "type": "string"
+        },
+        "Toelichting": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "WOWerkplek_Type": {
+      "required": [
+        "Werkplekletter",
+        "Dienstregelpunten",
+        "Spoortakken",
+        "Buitendienststelling",
+        "WerkplekPeriode"
+      ],
+      "properties": {
+        "Werkplekletter": {
+          "type": "string"
+        },
+        "Dienstregelpunten": {
+          "description": "Locatie werkplek uit werkplek tabblad van WO",
+          "required": [
+            "Dienstregelpunt"
+          ],
+          "properties": {
+            "Dienstregelpunt": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/Dienstregelpunt_Type"
+                },
+                {
+                  "items": {
+                    "$ref": "#/definitions/Dienstregelpunt_Type"
+                  },
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        },
+        "Spoortakken": {
+          "required": [
+            "Spoortak"
+          ],
+          "properties": {
+            "Spoortak": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/Spoortak_Type"
+                },
+                {
+                  "items": {
+                    "$ref": "#/definitions/Spoortak_Type"
+                  },
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        },
+        "Spanningsloos": {
+          "$ref": "#/definitions/Spanningsloos_Type"
+        },
+        "MaterieelOpstellingMogelijk": {
+          "$ref": "#/definitions/MaterieelOpstellingMogelijk_Type"
+        },
+        "Buitendienststelling": {
+          "$ref": "#/definitions/Buitendienststelling_Type"
+        },
+        "Toelichting": {
+          "type": "string"
+        },
+        "WerkplekPeriode": {
+          "$ref": "#/definitions/Tijdligging_Type"
+        }
+      },
+      "type": "object"
+    },
+    "Concurrentie_Type": {
+      "required": [
+        "TreinverkeerIndicator",
+        "OpstelIndicator"
+      ],
+      "properties": {
+        "TreinverkeerIndicator": {
+          "oneOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "integer"
+            }
+          ]
+        },
+        "OpstelIndicator": {
+          "oneOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "integer"
+            }
+          ]
+        },
+        "TreinverkeerToelichting": {
+          "type": "string"
+        },
+        "OpstelToelichting": {
+          "type": "string"
+        },
+        "ConcurrentieOpmerking": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "AfwijkendSpoorPerronGebruik_Type": {
+      "properties": {
+        "AfwijkendGebruikSporenRijwegenIndicatie": {
+          "description": "Waarden: Ja/Nee, ja/nee",
+          "type": "string"
+        },
+        "ToelichtingAfwijkendGebruikReizigersverkeer": {
+          "type": "string"
+        },
+        "ToelichtingAfwijkendGebruikGoederenverkeer": {
+          "type": "string"
+        },
+        "AfwijkendPerronGebruik": {
+          "$ref": "#/definitions/Indicatie_Type"
+        }
+      },
+      "type": "object"
+    },
+    "BetrokkenPartijen_Type": {
+      "required": [
+        "BetrokkenPartij"
+      ],
+      "properties": {
+        "BetrokkenPartij": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/OverlegOrganisatie_Type"
+            },
+            {
+              "items": {
+                "$ref": "#/definitions/OverlegOrganisatie_Type"
+              },
+              "type": "array"
+            }
+          ]
+        }
+      },
+      "type": "object"
+    },
+    "Buitendienststelling_Type": {
+      "required": [
+        "BuitendienststellingIndicator"
+      ],
+      "properties": {
+        "BuitendienststellingIndicator": {
+          "oneOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "integer"
+            }
+          ]
+        },
+        "SporenDieselTractie": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "Capaciteitsbehoeftebeheer_Type": {
+      "required": [
+        "Beheerversie"
+      ],
+      "properties": {
+        "Beheernummer": {
+          "type": "string"
+        },
+        "Beheerversie": {
+          "description": "Door de gebruiker te definieren versienummer of beschrijving",
+          "type": "string"
+        },
+        "Tijdsduur": {
+          "description": "Duur van de individuele onttrekkingen",
+          "maximum": 2147483647,
+          "minimum": -2147483648,
+          "type": "integer"
+        },
+        "Omschrijving": {
+          "description": "Beschrijving van de behoefte (soort werkzaamheden activteiten) bij WO altijd leeg",
+          "type": "string"
+        },
+        "Identificatie": {
+          "type": "string"
+        },
+        "Toelichting": {
+          "type": "string"
+        },
+        "FOT": {
+          "type": "string"
+        },
+        "UitgeroldIndicator": {
+          "oneOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "integer"
+            }
+          ]
+        }
+      },
+      "type": "object"
+    },
+    "Deelcorridor_Type": {
+      "required": [
+        "Trajectnaam",
+        "Naam"
+      ],
+      "properties": {
+        "Trajectnaam": {
+          "type": "string"
+        },
+        "Naam": {
+          "type": "string"
+        },
+        "VersperdIndicator": {
+          "oneOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "integer"
+            }
+          ]
+        }
+      },
+      "type": "object"
+    },
+    "ExterneIdentificatie_Type": {
+      "properties": {
+        "Bron": {
+          "type": "string"
+        },
+        "Kenmerk": {
+          "type": "string"
+        },
+        "Identificatie": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "Indicatie_Type": {
+      "required": [
+        "Indicator"
+      ],
+      "properties": {
+        "Indicator": {
+          "oneOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "integer"
+            }
+          ]
+        },
+        "Toelichting": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "InfraAtlasversie_Type": {
+      "required": [
+        "Versienummer",
+        "Begintijdstip"
+      ],
+      "properties": {
+        "Versienummer": {
+          "type": "string"
+        },
+        "Begintijdstip": {
+          "pattern": "-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])T(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\\.[0-9]+)?|(24:00:00(\\.0+)?))(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?",
+          "type": "string"
+        },
+        "Eindtijdstip": {
+          "pattern": "-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])T(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\\.[0-9]+)?|(24:00:00(\\.0+)?))(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "InfraObjectIdentificatie_Type": {
+      "required": [
+        "Gebiednaam",
+        "Gebiedtype",
+        "InfraObjectnaam",
+        "InfraObjectklasse"
+      ],
+      "properties": {
+        "Gebiednaam": {
+          "type": "string"
+        },
+        "Gebiedtype": {
+          "type": "string"
+        },
+        "InfraObjectnaam": {
+          "type": "string"
+        },
+        "InfraObjectklasse": {
+          "type": "string"
+        },
+        "Kantcode": {
+          "description": "Waarden: L, R, V",
+          "type": "string"
+        },
+        "VrijVanWisselIndicator": {
+          "oneOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "integer"
+            }
+          ]
+        }
+      },
+      "type": "object"
+    },
+    "KilometerOpKilometerlint_Type": {
+      "required": [
+        "Kilometerlint",
+        "Kilometerwaarde"
+      ],
+      "properties": {
+        "Kilometerlint": {
+          "type": "string"
+        },
+        "Kilometerwaarde": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "MaterieelOpstellingMogelijk_Type": {
+      "required": [
+        "MaterieelOpstellingMogelijkIndicator"
+      ],
+      "properties": {
+        "MaterieelOpstellingMogelijkIndicator": {
+          "oneOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "integer"
+            }
+          ]
+        },
+        "MaterieelOpstellingToelichting": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "OBEBlad_Type": {
+      "required": [
+        "Nummer"
+      ],
+      "properties": {
+        "Nummer": {
+          "type": "string"
+        },
+        "Versie": {
+          "type": "string"
+        },
+        "Bouwstap": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "OmrijdOmreis_Type": {
+      "required": [
+        "Naam"
+      ],
+      "properties": {
+        "Naam": {
+          "type": "string"
+        },
+        "Trajectnaam": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "OmrijdenOmreizen_Type": {
+      "required": [
+        "OmrijdenOmreizenNodigIndicator"
+      ],
+      "properties": {
+        "OmrijdenOmreizenNodigIndicator": {
+          "oneOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "integer"
+            }
+          ]
+        },
+        "Omreisroutes": {
+          "required": [
+            "Omreisroute"
+          ],
+          "properties": {
+            "Omreisroute": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/OmrijdOmreis_Type"
+                },
+                {
+                  "items": {
+                    "$ref": "#/definitions/OmrijdOmreis_Type"
+                  },
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        },
+        "OmrijdroutesNationaalReizigers": {
+          "required": [
+            "OmrijdrouteNationaalReizigers"
+          ],
+          "properties": {
+            "OmrijdrouteNationaalReizigers": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/OmrijdOmreis_Type"
+                },
+                {
+                  "items": {
+                    "$ref": "#/definitions/OmrijdOmreis_Type"
+                  },
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        },
+        "OmrijdroutesInternationaalReizigers": {
+          "required": [
+            "OmrijdrouteInternationaalReizigers"
+          ],
+          "properties": {
+            "OmrijdrouteInternationaalReizigers": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/OmrijdOmreis_Type"
+                },
+                {
+                  "items": {
+                    "$ref": "#/definitions/OmrijdOmreis_Type"
+                  },
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        },
+        "OmrijdroutesNationaalGoederen": {
+          "required": [
+            "OmrijdrouteNationaalGoederen"
+          ],
+          "properties": {
+            "OmrijdrouteNationaalGoederen": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/OmrijdOmreis_Type"
+                },
+                {
+                  "items": {
+                    "$ref": "#/definitions/OmrijdOmreis_Type"
+                  },
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        },
+        "OmrijdroutesInternationaalGoederen": {
+          "required": [
+            "OmrijdrouteInternationaalGoederen"
+          ],
+          "properties": {
+            "OmrijdrouteInternationaalGoederen": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/OmrijdOmreis_Type"
+                },
+                {
+                  "items": {
+                    "$ref": "#/definitions/OmrijdOmreis_Type"
+                  },
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        },
+        "Toelichting": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "Opstelcapaciteit_Type": {
+      "properties": {
+        "BeperkingenMaterieelOpstelling": {
+          "$ref": "#/definitions/Indicatie_Type"
+        },
+        "AlternatieveOpstelcapaciteitBenodigd": {
+          "$ref": "#/definitions/Indicatie_Type"
+        },
+        "AlternatieveOpstellocaties": {
+          "required": [
+            "Opstellocatie"
+          ],
+          "properties": {
+            "Opstellocatie": {
+              "oneOf": [
+                {},
+                {
+                  "items": {},
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        },
+        "AlternatieveOpstellocatieRoutes": {
+          "required": [
+            "OpstellocatieRoutes"
+          ],
+          "properties": {
+            "OpstellocatieRoutes": {
+              "oneOf": [
+                {},
+                {
+                  "items": {},
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        },
+        "BenodigdeHoeveelheidOpstelcapaciteit": {
+          "maximum": 2147483647,
+          "minimum": -2147483648,
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    },
+    "Overleg_Type": {
+      "properties": {
+        "AfsprakenUitOverleg": {
+          "type": "string"
+        },
+        "Overlegdatum": {
+          "pattern": "-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?",
+          "type": "string"
+        },
+        "Omschrijving": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "OverlegOrganisatie_Type": {
+      "required": [
+        "Organisatienaam",
+        "OverlegResultaat"
+      ],
+      "properties": {
+        "Organisatienaam": {
+          "type": "string"
+        },
+        "OverlegResultaat": {
+          "description": "Waarden: Akkoord, Niet akkoord, Nog te reageren, (Nog) geen voorstel ontvangen",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "Periode_Type": {
+      "required": [
+        "Begintijdstip",
+        "Eindtijdstip"
+      ],
+      "properties": {
+        "Begintijdstip": {
+          "pattern": "-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])T(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\\.[0-9]+)?|(24:00:00(\\.0+)?))(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?",
+          "type": "string"
+        },
+        "Eindtijdstip": {
+          "pattern": "-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])T(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\\.[0-9]+)?|(24:00:00(\\.0+)?))(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "Spanningsloos_Type": {
+      "required": [
+        "SpanningsloosIndicator"
+      ],
+      "properties": {
+        "SpanningsloosIndicator": {
+          "oneOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "integer"
+            }
+          ]
+        },
+        "SpanningsloosGroepen": {
+          "required": [
+            "SpanningsloosGroep"
+          ],
+          "properties": {
+            "SpanningsloosGroep": {
+              "oneOf": [
+                {},
+                {
+                  "items": {},
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "type": "object"
+    },
+    "Spoortak_Type": {
+      "required": [
+        "VanafWissel",
+        "TotInfraObject",
+        "SpoortakFragmenten"
+      ],
+      "properties": {
+        "VanafWissel": {
+          "$ref": "#/definitions/SpoortakGrens_Type"
+        },
+        "TotInfraObject": {
+          "$ref": "#/definitions/SpoortakGrens_Type"
+        },
+        "SpoortakFragmenten": {
+          "required": [
+            "SpoortakFragment"
+          ],
+          "properties": {
+            "SpoortakFragment": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/SpoortakFragment_Type"
+                },
+                {
+                  "items": {
+                    "$ref": "#/definitions/SpoortakFragment_Type"
+                  },
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "type": "object"
+    },
+    "SpoortakFragment_Type": {
+      "required": [
+        "SpoortakFragmentBegin",
+        "SpoortakFragmentEind"
+      ],
+      "properties": {
+        "ExterneIdentificatie": {
+          "$ref": "#/definitions/ExterneIdentificatie_Type"
+        },
+        "SpoortakFragmentBegin": {
+          "$ref": "#/definitions/KilometerOpKilometerlint_Type"
+        },
+        "SpoortakFragmentEind": {
+          "$ref": "#/definitions/KilometerOpKilometerlint_Type"
+        }
+      },
+      "type": "object"
+    },
+    "SpoortakGrens_Type": {
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/InfraObjectIdentificatie_Type"
+        },
+        {}
+      ]
+    },
+    "Tijdligging_Type": {
+      "required": [
+        "TijdliggingVanDag",
+        "TijdliggingVanTijd",
+        "TijdliggingTotDag",
+        "TijdliggingTotTijd"
+      ],
+      "properties": {
+        "TijdliggingVanDag": {
+          "type": "string"
+        },
+        "TijdliggingVanTijd": {
+          "pattern": "(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\\.[0-9]+)?|(24:00:00(\\.0+)?))(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?",
+          "type": "string"
+        },
+        "TijdliggingTotDag": {
+          "type": "string"
+        },
+        "TijdliggingTotTijd": {
+          "pattern": "(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\\.[0-9]+)?|(24:00:00(\\.0+)?))(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?",
+          "type": "string"
+        },
+        "TijdliggingAlternatiefIndicator": {
+          "oneOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "integer"
+            }
+          ]
+        },
+        "DezelfdeVerkeersgevolgenIndicatie": {
+          "description": "Waarden: Ja/Nee, ja/nee. Alleen gevuld als Alternatief = Ja.",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "Reden_Type": {
+      "required": [
+        "Indicatie"
+      ],
+      "properties": {
+        "Indicatie": {
+          "description": "Waarden: Ja/Nee, ja/nee",
+          "type": "string"
+        },
+        "Reden": {
+          "oneOf": [
+            {},
+            {
+              "items": {},
+              "type": "array"
+            }
+          ]
+        }
+      },
+      "type": "object"
+    },
+    "Verkeersgevolgen_Type": {
+      "properties": {
+        "Deelcorridors": {
+          "required": [
+            "Deelcorridor"
+          ],
+          "properties": {
+            "Deelcorridor": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/Deelcorridor_Type"
+                },
+                {
+                  "items": {
+                    "$ref": "#/definitions/Deelcorridor_Type"
+                  },
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        },
+        "ConcurrentieIndicatie": {
+          "description": "Waarden: Ja/Nee, ja/nee",
+          "type": "string"
+        },
+        "OpheffenReizigerstreinenIndicatie": {
+          "description": "Waarden: Ja/Nee, ja/nee",
+          "type": "string"
+        },
+        "OpheffenGoederentreinenIndicatie": {
+          "description": "Waarden: Ja/Nee, ja/nee",
+          "type": "string"
+        },
+        "VervallenGoederenpadenIndicatie": {
+          "description": "Waarden: Ja/Nee, ja/nee",
+          "type": "string"
+        },
+        "OmrijdenOmreizen": {
+          "$ref": "#/definitions/OmrijdenOmreizen_Type"
+        },
+        "Opstelcapaciteit": {
+          "$ref": "#/definitions/Opstelcapaciteit_Type"
+        },
+        "AfwijkendSpoorPerronGebruik": {
+          "$ref": "#/definitions/AfwijkendSpoorPerronGebruik_Type"
+        },
+        "VertragingTreinverkeer": {
+          "$ref": "#/definitions/VertragingTreinverkeer_Type"
+        },
+        "OverigeGevolgen": {
+          "$ref": "#/definitions/Indicatie_Type"
+        },
+        "HindercategorieOverschrijven": {
+          "description": "Waarden: Ja/Nee, ja/nee",
+          "type": "string"
+        },
+        "Hindercategorie": {
+          "description": "Waarden: V, A, R, U",
+          "type": "string"
+        },
+        "HerverdelenVerkeerVerkeerOmrijdroute": {
+          "$ref": "#/definitions/Indicatie_Type"
+        },
+        "HerverdelenVerkeerVerkeerRondIO": {
+          "$ref": "#/definitions/Indicatie_Type"
+        },
+        "GeraakteVervoerders": {
+          "required": [
+            "GeraakteVervoerder"
+          ],
+          "properties": {
+            "GeraakteVervoerder": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/Vervoerder_Type"
+                },
+                {
+                  "items": {
+                    "$ref": "#/definitions/Vervoerder_Type"
+                  },
+                  "type": "array"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "type": "object"
+    },
+    "VertragingTreinverkeer_Type": {
+      "properties": {
+        "VertragingReizigerstreinen": {
+          "$ref": "#/definitions/Reden_Type"
+        },
+        "VertragingGoederentreinen": {
+          "$ref": "#/definitions/Reden_Type"
+        }
+      },
+      "type": "object"
+    },
+    "Vervoerder_Type": {
+      "required": [
+        "GeraakteVervoerdernaam"
+      ],
+      "properties": {
+        "GeraakteVervoerdernaam": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "Dienstregelpunt_Type": {
+      "required": [
+        "Code",
+        "Naam"
+      ],
+      "properties": {
+        "Code": {
+          "type": "string"
+        },
+        "Naam": {
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "Mutatie_Type": {
+      "required": [
+        "Mutatietype",
+        "Mutatietijdstip",
+        "Mutatievolgnummer"
+      ],
+      "properties": {
+        "Mutatietype": {
+          "description": "Waarden: Nieuw, Gewijzigd, Vervallen",
+          "type": "string"
+        },
+        "Mutatietijdstip": {
+          "pattern": "-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])T(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\\.[0-9]+)?|(24:00:00(\\.0+)?))(Z|(\\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))?",
+          "type": "string"
+        },
+        "Mutatievolgnummer": {
+          "maximum": 2147483647,
+          "minimum": -2147483648,
+          "type": "integer"
+        }
+      },
+      "type": "object"
+    }
+  }
+}
