@@ -2,7 +2,7 @@
   "$id": "hello_world.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "This JSON Schema file was generated from hello_world.xsd on Mon Apr 22 2024 10:20:57 GMT+0200 (Midden-Europese zomertijd).  For more information please see http://www.xsd2jsonschema.org",
-  "description": "Schema tag attributes: xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:tns='http://www.prorail.nl/Buitendienststelling/schema/BuitendienststellingWO_2' targetNamespace='http://www.prorail.nl/Buitendienststelling/schema/BuitendienststellingWO_2' elementFormDefault='qualified' attributeFormDefault='unqualified' version='2.1'",
+  "description": "Schema tag attributes: xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:tns='http://www.prorail.nl/Buitendienststelling/schema/BuitendienststellingWO_2' targetNamespace='http://www.demo.nl/Buitendienststelling/schema/BuitendienststellingWO_2' elementFormDefault='qualified' attributeFormDefault='unqualified' version='2.1'",
   "properties": {
     "WekelijkseOnttrekking": {
       "$ref": "#/definitions/WekelijkseOnttrekking_Type"
