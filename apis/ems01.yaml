@@ -6,9 +6,9 @@ metadata:
   tags:
     - ems
 spec:
-  type: ems
+  type: openapi
   lifecycle: experimental
   owner: breanna.davison
   dependsOn: emsserverA
   definition:
-    $json: ./demo.json
+    $text: ./demo.json
