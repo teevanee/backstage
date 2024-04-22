@@ -11,4 +11,4 @@ spec:
   owner: breanna.davison
   dependsOn: emsserverA
   definition:
-    $text: ./demo.json
+    $json: ./demo.json
