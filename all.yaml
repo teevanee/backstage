@@ -6,5 +6,5 @@ metadata:
 spec:
   targets:
     - ./all-components.yaml
-    - ./domains/ka.yaml
+##    - ./domains/ka.yaml
     
