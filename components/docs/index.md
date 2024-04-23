@@ -14,4 +14,4 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 ## Tutorial  
 
 This is my tutorial..
-![alt text](testje.drawio.xml)
+![alt text](testje.drawio)
