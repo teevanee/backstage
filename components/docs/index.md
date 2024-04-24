@@ -15,3 +15,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 This is my tutorial..
 ![alt text](testje.drawio)
+
+### images
+
+![Alt Text](demo.png)
