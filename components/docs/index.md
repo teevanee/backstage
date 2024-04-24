@@ -12,6 +12,9 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 ## demoootje
 demo
 
+#### linkjes
+[links](/details/component01.md)
+
 ## Tutorial  
 
 This is my tutorial..
