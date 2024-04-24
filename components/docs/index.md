@@ -18,4 +18,4 @@ This is my tutorial..
 
 ### images
 
-![Alt Text](demo.png)
+![Alt Text](LCM-cycles.png)
