@@ -13,7 +13,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 demo
 
 #### linkjes
-[links](/details/component01.md)
+[links](details/component01.md)
 
 ## Tutorial  
 
