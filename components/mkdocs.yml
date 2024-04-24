@@ -1,3 +1,4 @@
-site_name: Componenten
+site_name: ComponentenSite
 plugins:
+  - techdocs-core
   - drawio_file
