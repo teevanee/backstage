@@ -4,7 +4,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## xsd
 
-'''
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://mapservices.prorail.nl/storingen/schema/geocoderen_2" targetNamespace="http://mapservices.prorail.nl/storingen/schema/geocoderen_2" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1">
 	<xs:element name="GeocodePunten" type="tns:GeocodePunten_Type"/>
@@ -69,9 +69,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 		</xs:sequence>
 	</xs:complexType>
 </xs:schema>
-
-
-'''
+```
 
 
 
