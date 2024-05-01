@@ -23,6 +23,7 @@ Kort en bondige beschrijving van de service
 Context van de service in woord en beeld
 [Context](ServiceScope.drawio.xml)
 
+
 ## Service operaties
 ### Operatie 1
 
@@ -32,7 +33,7 @@ Functionaliteit van de operatie
 **Trigger**
 
 **Interface beschrijving**
-[Interface](Gedrag.drawio)
+![interface](Gedrag.drawio)
 
 Figuur 1 Samenhang berichtelementen van Operatie 1, voor het XML bericht zie Appendix A
 
