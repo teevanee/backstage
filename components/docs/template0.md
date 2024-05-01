@@ -32,7 +32,7 @@ Functionaliteit van de operatie
 **Trigger**
 
 **Interface beschrijving**
-[Interface](Berichtstructuur.drawio.xml)
+[Interface](Gedrag.drawio)
 
 Figuur 1 Samenhang berichtelementen van Operatie 1, voor het XML bericht zie Appendix A
 
