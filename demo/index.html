@@ -1,0 +1,1639 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../romeo/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.13">
+    
+    
+      
+        <title>PlantUML examples - ComponentenSite</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e359304.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#plantuml-examples" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="ComponentenSite" class="md-header__button md-logo" aria-label="ComponentenSite" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ComponentenSite
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              PlantUML examples
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ComponentenSite" class="md-nav__button md-logo" aria-label="ComponentenSite" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    ComponentenSite
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome to MkDocs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    PlantUML examples
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    PlantUML examples
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sequence-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sequence diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sequence-diagram-with-steps-and-divider" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sequence diagram with steps and divider
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sequence-diagram-with-participant-shapes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sequence diagram with participant shapes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usecase-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usecase diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#object-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Object diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#class-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Class diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entity-relationship-diagram-erd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entity relationship diagram (ERD)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#package-styles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Package styles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#component-diagram-of-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Component diagram of items
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#state-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      State diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deployment-diagram-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deployment diagram items
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#timing-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Timing diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrams-through-ascii-art-ditaa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrams through ASCII art (DITAA)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wireframe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wireframe
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gantt-chart" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gantt chart
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mind-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mind map
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#json-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      JSON data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yaml-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      YAML data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#network-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Network diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#work-breakdown-structure-wbs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Work breakdown structure (WBS)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openiconic" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenIconic
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#font-awesome" class="md-nav__link">
+    <span class="md-ellipsis">
+      Font Awesome
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procedure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procedure-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedure layout
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#area-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Area diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c4-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      C4 model
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#standard-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      Standard library
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openiconic-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenIconic list
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../romeo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ansible output
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../template0/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Template0
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Details
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Details
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../details/component01/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Component01
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#sequence-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sequence diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sequence-diagram-with-steps-and-divider" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sequence diagram with steps and divider
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sequence-diagram-with-participant-shapes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sequence diagram with participant shapes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usecase-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usecase diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#object-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Object diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#class-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Class diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entity-relationship-diagram-erd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Entity relationship diagram (ERD)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#package-styles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Package styles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#activity-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Activity diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#component-diagram-of-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Component diagram of items
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#state-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      State diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deployment-diagram-items" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deployment diagram items
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#timing-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Timing diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrams-through-ascii-art-ditaa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrams through ASCII art (DITAA)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wireframe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wireframe
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gantt-chart" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gantt chart
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mind-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mind map
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#json-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      JSON data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yaml-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      YAML data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#network-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Network diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#work-breakdown-structure-wbs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Work breakdown structure (WBS)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openiconic" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenIconic
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#font-awesome" class="md-nav__link">
+    <span class="md-ellipsis">
+      Font Awesome
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procedure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procedure-layout" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procedure layout
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#area-diagram" class="md-nav__link">
+    <span class="md-ellipsis">
+      Area diagram
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c4-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      C4 model
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#standard-library" class="md-nav__link">
+    <span class="md-ellipsis">
+      Standard library
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#openiconic-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenIconic list
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="plantuml-examples">PlantUML examples<a class="headerlink" href="#plantuml-examples" title="Permanent link">&para;</a></h1>
+<p><a href="http://plantuml.com">PlantUML</a> is a software tool that uses text formatting to create graphic diagrams. This page introduces PlantUML by showing examples with diagrams and source code, for UML, ERD, wireframes, mind maps, JSON, YAML, WBS, ASCII art, Gantt charts, C4 models, and more. </p>
+<h2 id="sequence-diagram">Sequence diagram<a class="headerlink" href="#sequence-diagram" title="Permanent link">&para;</a></h2>
+<p><img alt="Sequence diagram" src="doc/sequence-diagram/sequence-diagram.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+Alpha -> Bravo
+Bravo -> Alpha
+@enduml
+</pre>
+</details>
+
+<h2 id="sequence-diagram-with-steps-and-divider">Sequence diagram with steps and divider<a class="headerlink" href="#sequence-diagram-with-steps-and-divider" title="Permanent link">&para;</a></h2>
+<p><img alt="Sequence diagram extras" src="doc/sequence-diagram-extras/sequence-diagram-extras.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+Alpha -> Bravo: Step 1
+Bravo -> Charlie: Step 2
+== My Divider ==
+Charlie -> Bravo: Step 3
+Bravo -> Alpha: Step 4
+@enduml
+</pre>
+</details>
+
+<h2 id="sequence-diagram-with-participant-shapes">Sequence diagram with participant shapes<a class="headerlink" href="#sequence-diagram-with-participant-shapes" title="Permanent link">&para;</a></h2>
+<p><img alt="Sequence diagram extras" src="doc/sequence-diagram-with-participant-shapes/sequence-diagram-with-participant-shapes.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+participant Participant as Foo
+actor       Actor       as Foo1
+boundary    Boundary    as Foo2
+control     Control     as Foo3
+entity      Entity      as Foo4
+database    Database    as Foo5
+collections Collections as Foo6
+queue       Queue       as Foo7
+Foo -> Foo1 : To actor 
+Foo -> Foo2 : To boundary
+Foo -> Foo3 : To control
+Foo -> Foo4 : To entity
+Foo -> Foo5 : To database
+Foo -> Foo6 : To collections
+Foo -> Foo7: To queue
+@enduml
+</pre>
+</details>
+
+<h2 id="usecase-diagram">Usecase diagram<a class="headerlink" href="#usecase-diagram" title="Permanent link">&para;</a></h2>
+<p><img alt="Usecase diagram" src="doc/usecase-diagram/usecase-diagram.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+left to right direction
+User1 --> (Story1)
+(Story1) --> (Story2)
+(Story2) --> (Story3)
+@enduml
+</pre>
+</details>
+
+<h2 id="object-diagram">Object diagram<a class="headerlink" href="#object-diagram" title="Permanent link">&para;</a></h2>
+<p><img alt="Object diagram" src="doc/object-diagram/object-diagram.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+
+object Object1 {
+  Alpha
+  Bravo
+}
+
+object Object2 {
+  Charlie
+  Delta
+}
+
+object Object3 {
+  Echo
+  Foxtrot
+}
+
+Object1 <|-- Object2
+Object1 <|-- Object3
+@enduml
+</pre>
+</details>
+
+<h2 id="class-diagram">Class diagram<a class="headerlink" href="#class-diagram" title="Permanent link">&para;</a></h2>
+<p><img alt="Class diagram" src="doc/class-diagram/class-diagram.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+
+' If you want to hide the "C" circle, then uncomment this line:
+' hide circle
+
+class Class1 {
+  {field} Alpha
+  {method} Bravo
+}
+
+class Class2 {
+  {field} Charlie
+  {method} Delta
+}
+
+class Class3 {
+  {field} Echo
+  {method} Foxtrot
+}
+
+Class1 <|--o Class2
+Class1 <|--* Class3
+@enduml
+</pre>
+</details>
+
+<h2 id="entity-relationship-diagram-erd">Entity relationship diagram (ERD)<a class="headerlink" href="#entity-relationship-diagram-erd" title="Permanent link">&para;</a></h2>
+<p><img alt="Entity relationship diagram" src="doc/entity-relationship-diagram/entity-relationship-diagram.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+skinparam linetype ortho
+
+' If you want to hide the "E" circle, then uncomment this line:
+' hide circle
+
+entity Entity1 {
+  Alpha
+  Bravo
+}
+
+entity Entity2 {
+  Charlie
+  Delta
+}
+
+entity Entity3 {
+  Echo
+  Foxtrot
+}
+
+Entity1 }o-down-o{ Entity2
+Entity1 }o-down-o{ Entity3
+@enduml
+</pre>
+</details>
+
+<h2 id="package-styles">Package styles<a class="headerlink" href="#package-styles" title="Permanent link">&para;</a></h2>
+<p><img alt="Package styles" src="doc/package-styles/package-styles.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+package "Demo Node" <<Node>> {
+  object Object1
+}
+package "Demo Rectangle" <<Rectangle>> {
+  object Object2
+}
+package "Demo Folder" <<Folder>> {
+  object Object3
+}
+package "Demo Frame" <<Frame>> {
+  object Object4
+}
+package "Demo Cloud" <<Cloud>> {
+  object Object5
+}
+package "Demo Database" <<Database>> {
+  object Object6
+}
+@enduml
+</pre>
+</details>
+
+<h2 id="activity-diagram">Activity diagram<a class="headerlink" href="#activity-diagram" title="Permanent link">&para;</a></h2>
+<p><img alt="Activity diagram" src="doc/activity-diagram/activity-diagram.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+start
+-> Starting;
+:Activity 1;
+if (Question) then (yes)
+  :Option 1;
+else (no)
+  :Option 2;
+endif
+:Activity 2;
+-> Stopping;
+stop
+@enduml
+</pre>
+</details>
+
+<h2 id="component-diagram-of-items">Component diagram of items<a class="headerlink" href="#component-diagram-of-items" title="Permanent link">&para;</a></h2>
+<p><img alt="Component diagram" src="doc/component-diagram/component-diagram.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+component "Component"
+interface "Interface"
+database "Database"
+cloud "Cloud"
+node "Node"
+package "Package"
+@enduml
+</pre>
+</details>
+
+<h2 id="state-diagram">State diagram<a class="headerlink" href="#state-diagram" title="Permanent link">&para;</a></h2>
+<p><img alt="State diagram" src="doc/state-diagram/state-diagram.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+[*] --> State1 : Start
+State1 -> State2 : Change1
+State2 -> State3 : Change2
+State3 --> [*] : Stop
+State1 : Description 1
+State2 : Description 2
+State3 : Description 3
+@enduml
+</pre>
+</details>
+
+<h2 id="deployment-diagram-items">Deployment diagram items<a class="headerlink" href="#deployment-diagram-items" title="Permanent link">&para;</a></h2>
+<p><img alt="Deployment diagram" src="doc/deployment-diagram/deployment-diagram.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+actor actor
+agent agent
+artifact artifact
+boundary boundary
+card card
+circle circle
+cloud cloud
+collections collections
+component component
+control control
+database database
+entity entity
+file file
+folder folder
+frame frame
+hexagon hexagon
+interface interface
+label label
+node node
+package package
+person person
+queue queue
+rectangle rectangle
+stack stack
+storage storage
+usecase usecase
+@enduml
+</pre>
+</details>
+
+<h2 id="timing-diagram">Timing diagram<a class="headerlink" href="#timing-diagram" title="Permanent link">&para;</a></h2>
+<p><img alt="Timing diagram" src="doc/timing-diagram/timing-diagram.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+concise "My Timeline" as T
+@T
+0 is Alpha
++100 is Bravo
++100 is Charlie
+@50 <-> @+100 : My Note
+@enduml
+</pre>
+</details>
+
+<h2 id="diagrams-through-ascii-art-ditaa">Diagrams through ASCII art (DITAA)<a class="headerlink" href="#diagrams-through-ascii-art-ditaa" title="Permanent link">&para;</a></h2>
+<p><img alt="Diagrams through ASCII art" src="doc/diagrams-through-ascii-art/diagrams-through-ascii-art.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+ditaa
++--------+   +-------+    +-------+
+|        +---+ ditaa +--> |       |
+|  Text  |   +-------+    |diagram|
+|Document|   |!magic!|    |       |
+|     {d}|   |       |    |       |
++---+----+   +-------+    +-------+
+    :                         ^
+    |       Lots of work      |
+    +-------------------------+
+@enduml
+</pre>
+</details>
+
+<h2 id="wireframe">Wireframe<a class="headerlink" href="#wireframe" title="Permanent link">&para;</a></h2>
+<p><img alt="Wireframe" src="doc/wireframe/wireframe.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+salt
+{
+  Hello world
+  [Button]
+  ()  Radio 1
+  (X) Radio 2
+  []  Checkbox 1
+  [X] Checkbox 2
+  "Enter text here   "
+  ^This is a droplist^
+}
+@enduml
+</pre>
+</details>
+
+<h2 id="gantt-chart">Gantt chart<a class="headerlink" href="#gantt-chart" title="Permanent link">&para;</a></h2>
+<p><img alt="Gantt chart" src="doc/gantt-chart/gantt-chart.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startgantt
+skinparam monochrome true
+[Task1] on {Alice} lasts 8 days
+then [Task2] on {Bob} lasts 4 days at 50%
+then [Task3] on {Carol} lasts 2 days at 25%
+@endgantt
+</pre>
+</details>
+
+<h2 id="mind-map">Mind map<a class="headerlink" href="#mind-map" title="Permanent link">&para;</a></h2>
+<p><img alt="Mind map" src="doc/mind-map/mind-map.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startmindmap
++ C
+++ D
+++ E
+-- A
+-- B
+@endmindmap
+</pre>
+</details>
+
+<h2 id="json-data">JSON data<a class="headerlink" href="#json-data" title="Permanent link">&para;</a></h2>
+<p><img alt="JSON data" src="doc/json-data/json-data.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startjson
+{
+   "fruit":"Apple",
+   "size":"Large",
+   "color": ["Red", "Green"]
+}
+@endjson
+</pre>
+</details>
+
+<h2 id="yaml-data">YAML data<a class="headerlink" href="#yaml-data" title="Permanent link">&para;</a></h2>
+<p><img alt="YAML data" src="doc/yaml-data/yaml-data.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startyaml
+fruit: Apple
+size: Large
+color: 
+  - Red
+  - Green
+@endyaml
+</pre>
+</details>
+
+<h2 id="network-diagram">Network diagram<a class="headerlink" href="#network-diagram" title="Permanent link">&para;</a></h2>
+<p><img alt="Network diagram" src="doc/network-diagram/network-diagram.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+nwdiag {
+  network dmz {
+      address = "210.x.x.x/24"
+
+      web01 [address = "210.x.x.1"];
+      web02 [address = "210.x.x.2"];
+  }
+}
+@enduml
+</pre>
+</details>
+
+<h2 id="work-breakdown-structure-wbs">Work breakdown structure (WBS)<a class="headerlink" href="#work-breakdown-structure-wbs" title="Permanent link">&para;</a></h2>
+<p><img alt="Work breakdown structure" src="doc/work-breakdown-structure/work-breakdown-structure.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startwbs
+* Top
+** A
+*** A1
+*** A2
+** B
+*** B1
+*** B2
+@endwbs
+</pre>
+</details>
+
+<h2 id="openiconic">OpenIconic<a class="headerlink" href="#openiconic" title="Permanent link">&para;</a></h2>
+<p><img alt="OpenIconic" src="doc/openiconic/openiconic.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+title: <&heart> Demo <&heart>
+@enduml
+</pre>
+</details>
+
+<p>OpenIconic provides open source icons. OpenIconic is now built-in to PlantUML.</p>
+<h2 id="font-awesome">Font Awesome<a class="headerlink" href="#font-awesome" title="Permanent link">&para;</a></h2>
+<p><img alt="Font Awesome" src="doc/font-awesome/font-awesome.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+!include &lt;font-awesome/star&gt;
+rectangle "<$star>"
+@enduml
+</pre>
+</details>
+
+<h2 id="procedure">Procedure<a class="headerlink" href="#procedure" title="Permanent link">&para;</a></h2>
+<p><img alt="Procedure diagram" src="doc/procedure/procedure.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+
+!procedure $demo($name, $headline, $description)
+  card $name as "\n<size:22>$headline</size>\n\n<size:12>$description</size>\n"
+!endprocedure
+
+$demo(MyCard, "Hello World", "This is a demonstration")
+
+@enduml
+</pre>
+</details>
+
+<h2 id="procedure-layout">Procedure layout<a class="headerlink" href="#procedure-layout" title="Permanent link">&para;</a></h2>
+<p><img alt="Procedure layout diagram" src="doc/procedure-layout/procedure-layout.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+skinparam defaultTextAlignment center
+
+!procedure $layout($shape, $name, $openiconic, $headline, $description)
+  $shape $name as "\n\n<size:44><&$openiconic></size>\n<size:22><U+00A0><U+00A0>$headline<U+00A0><U+00A0></size>\n\n<U+00A0><U+00A0>$description<U+00A0><U+00A0>\n\n"
+!endprocedure
+
+$layout(card, MyCard, heart, "Hello World", "This is a demonstration")
+
+@enduml
+</pre>
+</details>
+
+<p>This shows how to create your own procedure to create a custom layout with a shape, object name, OpenIconic icon, headline that uses big size text, and a description that uses normal size text.</p>
+<h2 id="area-diagram">Area diagram<a class="headerlink" href="#area-diagram" title="Permanent link">&para;</a></h2>
+<p><img alt="Area diagram" src="doc/area-diagram/area-diagram.plantuml.png" /></p>
+<p>The area diagram is an example deployment diagram that shows a bunch of areas and how they interrlate. This example is useful for seeing a real-world diagram, that uses boxes, arrows, Font Awesome icons, multi-line text, Unicode padding, font sizes, and more.</p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+skinparam monochrome true
+skinparam defaultTextAlignment center
+
+' icons
+!include <font-awesome/check_circle>
+!include <font-awesome/cloud>
+!include <font-awesome/cubes>
+!include <font-awesome/exchange>
+!include <font-awesome/file_code_o>
+!include <font-awesome/file_image_o>
+!include <font-awesome/gavel>
+!include <font-awesome/gear>
+!include <font-awesome/globe>
+!include <font-awesome/heart>
+!include <font-awesome/share_alt_square>
+
+' Pipeline objects
+stack ""<size:20>Example</size>\n\nexample\nexample\nexample"" as StackLeft
+card "<$cubes>\n<size:22><U+00A0><U+00A0>Example<U+00A0><U+00A0></size>\n\n<U+00A0><U+00A0>example, example, example <U+00A0><U+00A0>\n\n" as Pipeline1
+queue "<$check_circle>\n<size:22><U+00A0><U+00A0>Example<U+00A0><U+00A0></size>\n\n<U+00A0><U+00A0>example, example, example<U+00A0><U+00A0>\n\n" as Pipeline2
+card "<$cloud>\n<size:22><U+00A0><U+00A0>Example<U+00A0><U+00A0></size>\n\n<U+00A0><U+00A0>example, example, example<U+00A0><U+00A0>\n\n" as Pipeline3
+stack "<size:20>Example</size>\n\nexample\nexample\nexample" as StackRight
+
+' Pipeline flow
+StackLeft -r-> Pipeline1 : "Example"
+Pipeline1 -r-> Pipeline2 : "Example"
+Pipeline2 -r-> Pipeline3 : "Example"
+Pipeline3 -r-> StackRight : "Example"
+
+' Left side
+interface "Example" as InterfaceLeft
+InterfaceLeft -u-> StackLeft
+
+' Right side
+interface "Example" as InterfaceRight
+InterfaceRight -u-> StackRight
+
+' Actor 1
+actor "Actor 1" as Actor1
+usecase "\n<$file_image_o>\n<size:20><U+00A0><U+00A0>Example<U+00A0><U+00A0></size>\n\nexample\nexample\nexample\n\n" as UseCase1
+Actor1 -d-> UseCase1
+UseCase1 -d-> Pipeline1
+
+' Actor 2
+actor "Actor 2" as Actor2
+usecase "\n<$file_code_o>\n<size:20><U+00A0><U+00A0>Example<U+00A0><U+00A0></size>\n\nexample\nexample\nexample\n\n" as UseCase2
+Actor2 -d-> UseCase2
+UseCase2 -d-> Pipeline1
+
+' Actor 3
+actor "Actor 3" as Actor3
+usecase "\n<$exchange>\n<size:20>Example</size>\n\nexample\nexample\nexample\n\n" as UseCase3
+Actor3 -d-> UseCase3
+UseCase3 -d-> Pipeline3
+
+' Actor 4
+actor "Actor 4" as Actor4
+usecase "\n<$share_alt_square>\n<size:20>Example</size>\n\nexample\nexample\nexample\n\n" as UseCase4
+Actor4 -d-> UseCase4
+UseCase4 -d-> Pipeline3
+
+' Diamond upper area
+cloud "\n<$heart>\n<size:20>Example</size>\n\nexample, example, example\n\n" as DiamondUpper
+DiamondUpper -d-> Pipeline1
+DiamondUpper -d-> Pipeline2
+DiamondUpper -d-> Pipeline3
+
+' Diamond lower area
+database "\n<$gear>\n<size:20>Example</size>\n\nexample, example, example\n\n" as DiamondLower
+DiamondLower -u-> Pipeline1
+DiamondLower -u-> Pipeline2
+DiamondLower -u-> Pipeline3
+
+' Hinting
+UseCase1 -[hidden]r- UseCase2
+UseCase2 -[hidden]r- DiamondUpper
+DiamondUpper -[hidden]r- UseCase3
+UseCase3 -[hidden]r- UseCase4
+
+' Pipeline 1 controls
+control "<size:20>Example</size>\n\nexample\nexample\nexample" as Pipeline1Control1 
+control "<size:20>Example</size>\n\nexample\nexample\nexample" as Pipeline1Control2
+Pipeline1Control1 -u-> Pipeline1
+Pipeline1Control2 -u-> Pipeline1
+
+' Pipeline 3 controls
+control "<size:20>Example</size>\n\nexample\nexample\nexample" as Pipeline3Control1
+control "<size:20>Example</size>\n\nexample\nexample\nexample" as Pipeline3Control2
+Pipeline3Control1 -u-> Pipeline3
+Pipeline3Control2 -u-> Pipeline3
+
+@enduml
+</pre>
+</details>
+
+<h2 id="c4-model">C4 model<a class="headerlink" href="#c4-model" title="Permanent link">&para;</a></h2>
+<p><img alt="C4 model" src="doc/c4-model/c4-model.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+!include <C4/C4_Container>
+
+Person(personAlias, "Label", "Optional Description")
+Container(containerAlias, "Label", "Technology", "Optional Description")
+System(systemAlias, "Label", "Optional Description")
+
+System_Ext(extSystemAlias, "Label", "Optional Description")
+
+Rel(personAlias, containerAlias, "Label", "Optional Technology")
+
+Rel_U(systemAlias, extSystemAlias, "Label", "Optional Technology")
+@enduml
+</pre>
+</details>
+
+<p><a href="https://c4model.com/">C4 Model</a> focuses diagrams on four areas: Context, Containers, Components, Code.</p>
+<h2 id="standard-library">Standard library<a class="headerlink" href="#standard-library" title="Permanent link">&para;</a></h2>
+<p><img alt="Standard library" src="doc/standard-library/standard-library.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+stdlib
+@enduml
+</pre>
+</details>
+
+<p>You can list standard library folders by using the special diagram "stdlib".</p>
+<h2 id="openiconic-list">OpenIconic list<a class="headerlink" href="#openiconic-list" title="Permanent link">&para;</a></h2>
+<p><img alt="OpenIconic" src="doc/openiconic-list/openiconic-list.plantuml.png" /></p>
+<details>
+<summary>View Source</summary>
+<pre>
+@startuml
+listopeniconic
+@enduml
+</pre>
+</details>
+
+<p>You can list all the OpenIconic icon names and images by using the special diagram "listopeniconic".</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Welcome to MkDocs">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Welcome to MkDocs
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../romeo/" class="md-footer__link md-footer__link--next" aria-label="Next: Ansible output">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Ansible output
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.footer", "content.action.edit"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      
+        <script src="../search/main.js"></script>
+      
+    
+  </body>
+</html>
