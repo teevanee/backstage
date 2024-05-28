@@ -5,14 +5,9 @@ metadata:
   description: A collection of all demo example APIs
 spec:
   targets:
-    - ./templates/component01.yaml
-    - ./templates/component02.yaml
-    - ./templates/component03.yaml
-    - ./templates/keten01.yaml
-    - ./templates/template0.yaml
-    - ./domains/ka.yaml
-    - ./resources/emsserverA.yaml
-    - ./systems/esb.yaml
+    - ./components/component01.yaml
+    - ./components/component02.yaml
+    - ./components/component03.yaml
     
     
     
