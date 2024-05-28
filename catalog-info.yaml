@@ -5,4 +5,16 @@ metadata:
   description: A collection of all demo example APIs
 spec:
   targets:
-    - ./apis/hello-world-api2.yaml
+    - ./templates/component01.yaml
+    - ./templates/component02.yaml
+    - ./templates/component03.yaml
+    - ./templates/keten01.yaml
+    - ./templates/template0.yaml
+    - ./domains/ka.yaml
+    - ./resources/emsserverA.yaml
+    - ./systems/esb.yaml
+    
+    
+    
+    
+    
