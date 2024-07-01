@@ -27,8 +27,7 @@
 
 ![Sequence diagram extras](doc/sequence-diagram-with-participant-shapes/sequence-diagram-with-participant-shapes.plantuml.png)
 
-```
-plantuml id="myDiag" format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="600px" 
+```plantuml id="myDiag" format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="600px" 
 skinparam monochrome true
 participant Participant as Foo
 actor       Actor       as Foo1
