@@ -1,3 +1,6 @@
 site_name: ComponentenSite
 plugins:
   - techdocs-core
+  - plantuml:
+        puml_url: https://www.plantuml.com/plantuml/
+        num_workers: 8
