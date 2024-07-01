@@ -17,7 +17,7 @@
 
 ![Sequence diagram extras](doc/sequence-diagram-extras/sequence-diagram-extras.plantuml.png)
 
-```plantuml id="myDiag" format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="300px" height="300px"
+```plantuml id="myDiag" format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="600px"
   Goofy ->  MickeyMouse: calls
   Goofy <-- MickeyMouse: responds
 ```
