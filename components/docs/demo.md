@@ -17,19 +17,11 @@
 
 ![Sequence diagram extras](doc/sequence-diagram-extras/sequence-diagram-extras.plantuml.png)
 
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
-skinparam monochrome true
-Alpha -> Bravo: Step 1
-Bravo -> Charlie: Step 2
-== My Divider ==
-Charlie -> Bravo: Step 3
-Bravo -> Alpha: Step 4
-@enduml
-</pre>
-</details>
+```plantuml source="basic.puml"
+'' This code is appended to the contents of basic.puml
+Goofy ->  MickeyMouse: calls
+Goofy <-- MickeyMouse: responds
+```
 
 
 ## Sequence diagram with participant shapes
