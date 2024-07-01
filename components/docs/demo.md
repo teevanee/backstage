@@ -7,16 +7,10 @@
 
 ![Sequence diagram](doc/sequence-diagram/sequence-diagram.plantuml.png)
 
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
-skinparam monochrome true
-Alpha -> Bravo
-Bravo -> Alpha
-@enduml
-</pre>
-</details>
+::uml:: format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="300px" height="300px"
+  Goofy ->  MickeyMouse: calls
+  Goofy <-- MickeyMouse: responds
+::end-uml::
 
 
 ## Sequence diagram with steps and divider
