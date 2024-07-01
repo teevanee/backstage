@@ -5,7 +5,6 @@
 
 ## Sequence diagram
 
-![Sequence diagram](doc/sequence-diagram/sequence-diagram.plantuml.png)
 
 ::uml:: format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="300px" height="300px"
   Goofy ->  MickeyMouse: calls
@@ -15,8 +14,6 @@
 
 ## Sequence diagram with steps and divider
 
-![Sequence diagram extras](doc/sequence-diagram-extras/sequence-diagram-extras.plantuml.png)
-
 ```plantuml id="myDiag" format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="300px"
   Goofy ->  MickeyMouse: calls
   Goofy <-- MickeyMouse: responds
@@ -24,8 +21,6 @@
 
 
 ## Sequence diagram with participant shapes
-
-![Sequence diagram extras](doc/sequence-diagram-with-participant-shapes/sequence-diagram-with-participant-shapes.plantuml.png)
 
 ```plantuml id="myDiag" format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="600px" 
 skinparam monochrome true
