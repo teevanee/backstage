@@ -17,10 +17,9 @@
 
 ![Sequence diagram extras](doc/sequence-diagram-extras/sequence-diagram-extras.plantuml.png)
 
-```plantuml source="basic.puml"
-'' This code is appended to the contents of basic.puml
-Goofy ->  MickeyMouse: calls
-Goofy <-- MickeyMouse: responds
+```plantuml id="myDiag" format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="300px" height="300px"
+  Goofy ->  MickeyMouse: calls
+  Goofy <-- MickeyMouse: responds
 ```
 
 
@@ -28,10 +27,7 @@ Goofy <-- MickeyMouse: responds
 
 ![Sequence diagram extras](doc/sequence-diagram-with-participant-shapes/sequence-diagram-with-participant-shapes.plantuml.png)
 
-<details>
-<summary>View Source</summary>
-<pre>
-@startuml
+```plantuml id="myDiag" format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="300px" height="300px"
 skinparam monochrome true
 participant Participant as Foo
 actor       Actor       as Foo1
@@ -48,9 +44,7 @@ Foo -> Foo4 : To entity
 Foo -> Foo5 : To database
 Foo -> Foo6 : To collections
 Foo -> Foo7: To queue
-@enduml
-</pre>
-</details>
+```
 
 
 ## Usecase diagram
