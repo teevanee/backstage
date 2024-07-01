@@ -17,7 +17,7 @@
 
 ![Sequence diagram extras](doc/sequence-diagram-extras/sequence-diagram-extras.plantuml.png)
 
-```plantuml id="myDiag" format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="600px"
+```plantuml id="myDiag" format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="300px"
   Goofy ->  MickeyMouse: calls
   Goofy <-- MickeyMouse: responds
 ```
@@ -27,7 +27,8 @@
 
 ![Sequence diagram extras](doc/sequence-diagram-with-participant-shapes/sequence-diagram-with-participant-shapes.plantuml.png)
 
-```plantuml id="myDiag" format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="300px" height="300px"
+```
+plantuml id="myDiag" format="png" classes="uml myDiagram" alt="My super diagram placeholder" title="My super diagram" width="600px" 
 skinparam monochrome true
 participant Participant as Foo
 actor       Actor       as Foo1
